@@ -1,0 +1,8 @@
+{
+  "name": "phr",
+  "app_id": "909a1092",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
