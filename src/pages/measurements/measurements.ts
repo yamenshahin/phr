@@ -29,7 +29,6 @@ export class MeasurementsPage {
   goTo(measurement) {
     console.log(measurement);
     this.navCtrl.push('MeasurementDetailPage', {measurement: measurement});
-    console.log()
-
+    
   }
 }

@@ -14,8 +14,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'measurement-detail.html',
 })
 export class MeasurementDetailPage {
-
+  measurement;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  	this.measurement = this.navParams.get('measurement');
   }
 
   ionViewDidLoad() {
